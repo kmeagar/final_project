@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kmeag/OneDrive%20-%20University%20of%20South%20Florida/Bus%20App%20Dev/FOODFINDER-APPLICATION/foodfinder-application/pages/_app.tsx"],"sourcesContent":["import \"../styles/globals.css\";\r\nimport \"../styles/layout.css\";\r\nimport type { AppProps } from \"next/app\";\r\nimport Layout from \"../../code/foodfinder-application/components/layout\";\r\n\r\nexport default function App({ Component, pageProps }: AppProps) {\r\n  return (\r\n    <Layout>\r\n      <Component {...pageProps} />\r\n    </Layout>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;;AAKe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAY;IAC5D,qBACE,qKAAC;kBACC,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAG9B","debugId":null}}]
+}

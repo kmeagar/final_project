@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/header/logo/index.module.css"],"sourcesContent":[".root {\n    display: inline-block;\n    height: 35px;\n    position: relative;\n    width: 119px;\n}\n/* above 600px */\n@media (min-width: 600px) {\n    .root {\n        height: 50px;\n        width: 169px;\n    }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;EACI"}}]
+}

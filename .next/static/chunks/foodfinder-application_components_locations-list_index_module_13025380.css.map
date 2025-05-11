@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kmeag/OneDrive%20-%20University%20of%20South%20Florida/Bus%20App%20Dev/FOODFINDER-APPLICATION/code/foodfinder-application/components/locations-list/index.module.css"],"sourcesContent":[".root {\n    margin: 0;\n    padding: 0;\n}"],"names":[],"mappings":"AAAA","debugId":null}}]
+}

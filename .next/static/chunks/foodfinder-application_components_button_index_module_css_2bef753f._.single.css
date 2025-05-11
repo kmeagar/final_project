@@ -1,0 +1,75 @@
+/* [project]/foodfinder-application/components/button/index.module.css [client] (css) */
+.index-module__m_b3mW__root {
+  color: #1d1f21;
+  cursor: pointer;
+  letter-spacing: 0;
+  white-space: nowrap;
+  border-radius: 5px;
+  place-content: flex-start;
+  align-items: center;
+  height: 38px;
+  margin: 0;
+  font-weight: 500;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.index-module__m_b3mW__root > a, .index-module__m_b3mW__root > span {
+  white-space: nowrap;
+  padding: 0 1rem;
+}
+
+.index-module__m_b3mW__root {
+  will-change: border-color, background-color, color;
+  transition: border-color .25s ease-in, background-color .25s ease-in, color .25s ease-in;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__default, .index-module__m_b3mW__root.index-module__m_b3mW__default:link, .index-module__m_b3mW__root.index-module__m_b3mW__default:visited {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #0000;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__default:hover, .index-module__m_b3mW__root.index-module__m_b3mW__default:active {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #dbd8e3;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__blue, .index-module__m_b3mW__root.index-module__m_b3mW__blue:link, .index-module__m_b3mW__root.index-module__m_b3mW__blue:visited {
+  color: #fff;
+  background-color: #0076ffe6;
+  border: 1px solid #0076ffe6;
+  text-decoration: none;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__blue:hover, .index-module__m_b3mW__root.index-module__m_b3mW__blue:active {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #1d1f21;
+  text-decoration: none;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__outline, .index-module__m_b3mW__root.index-module__m_b3mW__outline:link, .index-module__m_b3mW__root.index-module__m_b3mW__outline:visited {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #dbd8e3;
+  text-decoration: none;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__outline:hover, .index-module__m_b3mW__root.index-module__m_b3mW__outline:active {
+  color: #0076ffe6;
+  background-color: #0000;
+  border: 1px solid #0076ffe6;
+  text-decoration: none;
+}
+
+.index-module__m_b3mW__root.index-module__m_b3mW__disabled, .index-module__m_b3mW__root.index-module__m_b3mW__disabled:link, .index-module__m_b3mW__root.index-module__m_b3mW__disabled:visited, .index-module__m_b3mW__root.index-module__m_b3mW__disabled:hover, .index-module__m_b3mW__root.index-module__m_b3mW__disabled:active {
+  color: #dbd8e3;
+  background-color: #0000;
+  border: 1px solid #dbd8e3;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=foodfinder-application_components_button_index_module_css_2bef753f._.single.css.map*/

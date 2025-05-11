@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/foodfinder-application/components/header/auth-element/index.module.css"],"sourcesContent":[".root {\n    align-items: center;\n    display: flex;\n    justify-content: space-between;\n    margin: 0;\n    padding: 1rem 0;\n    width: auto;\n}\n\n.root > * {\n    margin: 0 0 0 2rem;\n}\n\n.name {\n    margin: 1rem 0 0 0;\n}\n\n/* above 600px */\n@media (min-width: 600px) {\n    .name {\n            margin: 0 0 0 1rem;\n    }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;AAIA;;;;AAKA;EACI"}}]
+}

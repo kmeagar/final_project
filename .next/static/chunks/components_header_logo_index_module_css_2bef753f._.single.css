@@ -1,0 +1,16 @@
+/* [project]/components/header/logo/index.module.css [client] (css) */
+.index-module__3wx1-q__root {
+  width: 119px;
+  height: 35px;
+  display: inline-block;
+  position: relative;
+}
+
+@media (width >= 600px) {
+  .index-module__3wx1-q__root {
+    width: 169px;
+    height: 50px;
+  }
+}
+
+/*# sourceMappingURL=components_header_logo_index_module_css_2bef753f._.single.css.map*/

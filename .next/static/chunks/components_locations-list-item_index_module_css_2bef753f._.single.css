@@ -1,0 +1,29 @@
+/* [project]/components/locations-list-item/index.module.css [client] (css) */
+.index-module__L9cGmG__root {
+  color: #1d1f21;
+  cursor: pointer;
+  will-change: background-color, color;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: .5rem 0;
+  padding: .5rem;
+  list-style: none;
+  transition: background-color .25s ease-in, color .25s ease-in;
+}
+
+.index-module__L9cGmG__root:hover {
+  color: #fff;
+  background-color: #0076ffe6;
+}
+
+.index-module__L9cGmG__root h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.index-module__L9cGmG__root small {
+  padding: 0 1rem;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=components_locations-list-item_index_module_css_2bef753f._.single.css.map*/

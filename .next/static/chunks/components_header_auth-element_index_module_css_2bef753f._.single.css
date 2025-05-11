@@ -1,0 +1,25 @@
+/* [project]/components/header/auth-element/index.module.css [client] (css) */
+.index-module__HHOaQW__root {
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+}
+
+.index-module__HHOaQW__root > * {
+  margin: 0 0 0 2rem;
+}
+
+.index-module__HHOaQW__name {
+  margin: 1rem 0 0;
+}
+
+@media (width >= 600px) {
+  .index-module__HHOaQW__name {
+    margin: 0 0 0 1rem;
+  }
+}
+
+/*# sourceMappingURL=components_header_auth-element_index_module_css_2bef753f._.single.css.map*/

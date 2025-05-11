@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/foodfinder-application/components/header/index.module.css"],"sourcesContent":[".root {\n    background: white;\n    border-bottom: 1px solid #eaeaea;\n    padding: 1rem 0;\n    position: sticky;\n    top: 0;\n    width: 100%;\n    z-index: 1;\n}\n"],"names":[],"mappings":"AAAA"}}]
+}

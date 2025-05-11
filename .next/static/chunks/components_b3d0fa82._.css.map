@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kmeag/OneDrive%20-%20University%20of%20South%20Florida/Bus%20App%20Dev/FOODFINDER-APPLICATION/foodfinder-application/components/locations-list-item/index.module.css"],"sourcesContent":[".root {\n    background-color: #fff;\n    border-radius: 5px;\n    color: #1d1f21;\n    cursor: pointer;\n    list-style: none;\n    margin: 0.5rem 0;\n    padding: 0.5rem;\n    transition: background-color 0.25s ease-in, color 0.25s ease-in;\n    will-change: background-color, color;\n}\n\n.root:hover {\n    background-color: rgba(0, 118, 255, 0.9);\n    color: #fff;\n}\n\n.root h2 {\n    margin: 0;\n    padding: 0;\n}\n\n.root small {\n    font-weight: 300;\n    padding: 0 1rem;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAYA;;;;;AAKA;;;;;AAKA","debugId":null}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kmeag/OneDrive%20-%20University%20of%20South%20Florida/Bus%20App%20Dev/FOODFINDER-APPLICATION/foodfinder-application/components/locations-list/index.module.css"],"sourcesContent":[".root {\n    margin: 0;\n    padding: 0;\n}"],"names":[],"mappings":"AAAA","debugId":null}}]
+}

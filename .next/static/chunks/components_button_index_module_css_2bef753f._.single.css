@@ -1,0 +1,75 @@
+/* [project]/components/button/index.module.css [client] (css) */
+.index-module___-7TkW__root {
+  color: #1d1f21;
+  cursor: pointer;
+  letter-spacing: 0;
+  white-space: nowrap;
+  border-radius: 5px;
+  place-content: flex-start;
+  align-items: center;
+  height: 38px;
+  margin: 0;
+  font-weight: 500;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.index-module___-7TkW__root > a, .index-module___-7TkW__root > span {
+  white-space: nowrap;
+  padding: 0 1rem;
+}
+
+.index-module___-7TkW__root {
+  will-change: border-color, background-color, color;
+  transition: border-color .25s ease-in, background-color .25s ease-in, color .25s ease-in;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__default, .index-module___-7TkW__root.index-module___-7TkW__default:link, .index-module___-7TkW__root.index-module___-7TkW__default:visited {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #0000;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__default:hover, .index-module___-7TkW__root.index-module___-7TkW__default:active {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #dbd8e3;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__blue, .index-module___-7TkW__root.index-module___-7TkW__blue:link, .index-module___-7TkW__root.index-module___-7TkW__blue:visited {
+  color: #fff;
+  background-color: #0076ffe6;
+  border: 1px solid #0076ffe6;
+  text-decoration: none;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__blue:hover, .index-module___-7TkW__root.index-module___-7TkW__blue:active {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #1d1f21;
+  text-decoration: none;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__outline, .index-module___-7TkW__root.index-module___-7TkW__outline:link, .index-module___-7TkW__root.index-module___-7TkW__outline:visited {
+  color: #1d1f21;
+  background-color: #0000;
+  border: 1px solid #dbd8e3;
+  text-decoration: none;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__outline:hover, .index-module___-7TkW__root.index-module___-7TkW__outline:active {
+  color: #0076ffe6;
+  background-color: #0000;
+  border: 1px solid #0076ffe6;
+  text-decoration: none;
+}
+
+.index-module___-7TkW__root.index-module___-7TkW__disabled, .index-module___-7TkW__root.index-module___-7TkW__disabled:link, .index-module___-7TkW__root.index-module___-7TkW__disabled:visited, .index-module___-7TkW__root.index-module___-7TkW__disabled:hover, .index-module___-7TkW__root.index-module___-7TkW__disabled:active {
+  color: #dbd8e3;
+  background-color: #0000;
+  border: 1px solid #dbd8e3;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=components_button_index_module_css_2bef753f._.single.css.map*/

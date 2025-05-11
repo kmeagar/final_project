@@ -56,6 +56,30 @@ const mod = __turbopack_context__.x("next/dist/compiled/next-server/pages-turbo.
 
 module.exports = mod;
 }}),
+"[project]/public/assets/logo.svg (static in ecmascript)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v("/_next/static/media/logo.54780abd.svg");}}),
+"[project]/public/assets/logo.svg.mjs { IMAGE => \"[project]/public/assets/logo.svg (static in ecmascript)\" } [ssr] (structured image object, ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$logo$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/assets/logo.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$logo$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 240,
+    height: 71,
+    blurDataURL: null,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}}),
 "[project]/foodfinder-application/components/header/logo/index.module.css [ssr] (css module)": ((__turbopack_context__) => {
 
 var { g: global, __dirname } = __turbopack_context__;
@@ -75,7 +99,9 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$logo$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$assets$2f$logo$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/assets/logo.svg.mjs { IMAGE => "[project]/public/assets/logo.svg (static in ecmascript)" } [ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f$components$2f$header$2f$logo$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/foodfinder-application/components/header/logo/index.module.css [ssr] (css module)");
+;
 ;
 ;
 ;
@@ -86,20 +112,19 @@ const Logo = ()=>{
         passHref: true,
         className: __TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f$components$2f$header$2f$logo$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].root,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-            src: "/assets/logo.svg" // ✅ Use public path directly
-            ,
+            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$assets$2f$logo$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$assets$2f$logo$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
             alt: "Logo: Food Finder",
-            width: 100,
-            height: 100,
+            sizes: "100vw",
+            fill: true,
             priority: true
         }, void 0, false, {
             fileName: "[project]/foodfinder-application/components/header/logo/index.tsx",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/foodfinder-application/components/header/logo/index.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 9
     }, this);
 };
@@ -392,4 +417,4 @@ function App({ Component, pageProps: { session, ...pageProps } }) {
 
 };
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__6d6db976._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__a963458e._.js.map

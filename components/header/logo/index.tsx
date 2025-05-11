@@ -1,16 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-const logo = "/assets/logo.svg";
 import styles from "./index.module.css";
 
 const Logo = (): JSX.Element => {
     return (
         <Link href="/" passHref className={styles.root}>
             <Image
-                src={logo}
+                src="/assets/logo.svg" // ✅ Use public path directly
                 alt="Logo: Food Finder"
-                sizes="100vw"
-                fill
+                width={100} // You can adjust these values
+                height={100}
                 priority
             />
         </Link>

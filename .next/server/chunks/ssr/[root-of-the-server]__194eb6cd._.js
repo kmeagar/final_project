@@ -55,7 +55,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f
 ;
 ;
 ;
-const logo = "/assets/logo.svg";
 ;
 const Logo = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -63,19 +62,20 @@ const Logo = ()=>{
         passHref: true,
         className: __TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f$components$2f$header$2f$logo$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].root,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-            src: logo,
+            src: "/assets/logo.svg" // ✅ Use public path directly
+            ,
             alt: "Logo: Food Finder",
-            sizes: "100vw",
-            fill: true,
+            width: 100,
+            height: 100,
             priority: true
         }, void 0, false, {
             fileName: "[project]/foodfinder-application/components/header/logo/index.tsx",
-            lineNumber: 9,
+            lineNumber: 8,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/foodfinder-application/components/header/logo/index.tsx",
-        lineNumber: 8,
+        lineNumber: 7,
         columnNumber: 9
     }, this);
 };
@@ -263,7 +263,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f
 ;
 ;
 ;
-// data is resolved to type Data
 const Header = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("header", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f$components$2f$header$2f$index$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].root,
@@ -272,23 +271,23 @@ const Header = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f$components$2f$header$2f$logo$2f$index$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/foodfinder-application/components/header/index.tsx",
-                    lineNumber: 10,
+                    lineNumber: 9,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$foodfinder$2d$application$2f$components$2f$header$2f$auth$2d$element$2f$index$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/foodfinder-application/components/header/index.tsx",
-                    lineNumber: 11,
+                    lineNumber: 10,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/foodfinder-application/components/header/index.tsx",
-            lineNumber: 9,
+            lineNumber: 8,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/foodfinder-application/components/header/index.tsx",
-        lineNumber: 8,
+        lineNumber: 7,
         columnNumber: 9
     }, this);
 };
